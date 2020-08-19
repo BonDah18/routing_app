@@ -8,7 +8,7 @@ import Contact from './Contact';
 import NotFound from './NotFound';
  
 const routing = (
-  <BrowserRouter>
+  <Router>
     <div>
       <h3>Clue Mediator (www.cluemediator.com)</h3>
       
@@ -23,7 +23,7 @@ const routing = (
         <Route component={NotFound} />
       </Switch>
     </div>
-  </BrowserRouter>
+  </Router>
 )
  
 ReactDOM.render(routing, document.getElementById('root'));
