@@ -1,7 +1,11 @@
 import React from "react";
 
 const Home = () => {
-  return <h3>This is the Home page.</h3>
+  return (
+  <div className="jumbotron text-center">
+  <h3>This is the Home page.</h3>
+  </div>
+  );
 }
 
 export default Home; 
