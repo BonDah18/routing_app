@@ -6,16 +6,12 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import NotFound from './NotFound';
+import Navbar from './Navbar';
  
 const routing = (
   <Router>
     <div>
-      <h3>Clue Mediator (www.cluemediator.com)</h3>
-      
-          <NavLink exact activeClassName="active" to="/">Home</NavLink><br />
-          <NavLink activeClassName="active" to="/about">About</NavLink><br />
-          <NavLink activeClassName="active" to="/contact">Contact</NavLink>
- 
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
